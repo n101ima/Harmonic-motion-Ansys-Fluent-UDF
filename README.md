@@ -6,7 +6,7 @@ $$v(t) = \theta_{max} \omega \cos(\omega t)$$
 
 where $v(t)$ is the velocity at time $t$, $\theta_{max}$ is the maximum angular displacement in radians, and $\omega$ is the angular frequency in radians per second. The UDF uses the following constants:
 
-•  Freq: The frequency of the oscillation in hertz, which is equal to 3.95662518 Hz.
+•  Freq: The frequency of the oscillation in hertz, which is equal to 3.95662518 Hz. (you need to change this according to your problem)
 
 •  angular_freq: The angular frequency in radians per second, which is equal to 2.0M_PIFreq.
 
