@@ -14,8 +14,7 @@ where $v(t)$ is the velocity at time $t$, $\theta_{max}$ is the maximum angular 
 
 The UDF uses the DEFINE_PROFILE macro to assign the velocity profile to a face zone. The macro takes three arguments: the name of the UDF (velocity_profile), the thread pointer (t), and the direction index (i). The UDF loops over all the faces in the face zone and sets the velocity component (F_PROFILE) to the value of the cosine function evaluated at the current time (CURRENT_TIME). The UDF must be compiled and hooked to the appropriate boundary condition before running the simulation.
 
-Refrences
-n/
+# Refrences
 https://www.nature.com/articles/s41598-021-96733-6
 https://link.springer.com/article/10.1007/s10973-020-09624-9
 https://link.springer.com/article/10.1007/s10973-020-09379-3
